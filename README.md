@@ -1,25 +1,31 @@
-About
-The dataset is publically available on the Kaggle website, and it is from an ongoing cardiovascular study on residents of the town of Framingham, Massachusetts. The classification goal is to predict whether the patient has 10-year risk of future coronary heart disease (CHD).The dataset provides the patients’ information. It includes over 4,000 records and 15 attributes. Variables Each attribute is a potential risk factor. There are both demographic, behavioral and medical risk factors.
+# Framingham Heart Study Dataset
 
-Demographic:
-Sex: male or female(Nominal)
-Age: Age of the patient;(Continuous - Although the recorded ages have been truncated to whole numbers, the concept of age is continuous) Behavioral
-Current Smoker: whether or not the patient is a current smoker (Nominal)
-Cigs Per Day: the number of cigarettes that the person smoked on average in one day.(can be considered continuous as one can have any number of cigarettes, even half a cigarette.)
+## Overview
+This dataset is publicly available on Kaggle and originates from an ongoing cardiovascular study conducted in Framingham, Massachusetts. The primary objective is to predict whether a patient is at risk of developing coronary heart disease (CHD) over the next 10 years. The dataset comprises patient information, containing more than 4,000 records and 15 distinct attributes. These attributes encompass demographic, behavioral, and medical factors, each of which plays a role in assessing the risk of CHD.
 
-Medical( history)
-BP Meds: whether or not the patient was on blood pressure medication (Nominal)
-Prevalent Stroke: whether or not the patient had previously had a stroke (Nominal)
-Prevalent Hyp: whether or not the patient was hypertensive (Nominal)
-Diabetes: whether or not the patient had diabetes (Nominal)
+## Demographic Factors
+1. **Sex**: Gender of the patient (Nominal - male or female).
+2. **Age**: Age of the patient (Continuous - although ages are recorded as whole numbers, age is inherently continuous).
 
-Medical(current)
-Tot Chol: total cholesterol level (Continuous)
-Sys BP: systolic blood pressure (Continuous)
-Dia BP: diastolic blood pressure (Continuous)
-BMI: Body Mass Index (Continuous)
-Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.)
-Glucose: glucose level (Continuous)
+## Behavioral Factors
+3. **Current Smoker**: Indicates whether the patient is a current smoker (Nominal).
+4. **Cigs Per Day**: Represents the average number of cigarettes smoked per day (Continuous - as any number of cigarettes can be consumed, including fractions).
 
-Predict variable (desired target)
-10 year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”)
+## Medical History
+5. **BP Meds**: Indicates whether the patient is currently taking blood pressure medication (Nominal).
+6. **Prevalent Stroke**: Indicates whether the patient has previously had a stroke (Nominal).
+7. **Prevalent Hyp**: Indicates whether the patient is hypertensive (Nominal).
+8. **Diabetes**: Indicates whether the patient has diabetes (Nominal).
+
+## Current Medical Factors
+9. **Tot Chol**: Total cholesterol level (Continuous).
+10. **Sys BP**: Systolic blood pressure (Continuous).
+11. **Dia BP**: Diastolic blood pressure (Continuous).
+12. **BMI**: Body Mass Index (Continuous).
+13. **Heart Rate**: Heart rate (Continuous - considered continuous in medical research due to a large number of possible values).
+14. **Glucose**: Glucose level (Continuous).
+
+## Predictive Target
+15. **10-Year Risk of Coronary Heart Disease (CHD)**: A binary variable where "1" indicates a high risk of CHD, and "0" denotes a low risk (binary classification).
+
+This dataset serves as a valuable resource for researchers and healthcare professionals seeking to understand and predict the risk factors associated with coronary heart disease. It encompasses a wide range of attributes that can be utilized for various analytical and predictive purposes.
